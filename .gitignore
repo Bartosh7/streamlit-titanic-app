@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Wirtualne środowiska ---
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# --- Jupyter / VSCode / IDE ---
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Systemowe / OS ---
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/secrets.toml  # jeśli masz klucze API lub hasła
+
+# --- Logs / tymczasowe ---
+*.log
+*.tmp
+*.bak
+
+# --- Cache / metadata ---
+__pycache__/
+.cache/
+.mypy_cache/
+.pytest_cache/
